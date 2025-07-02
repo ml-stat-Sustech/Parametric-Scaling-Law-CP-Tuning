@@ -1,6 +1,6 @@
 # Parametric Scaling Law of Tuning Bias in Conformal Prediction
 
-This repository is the official implementation of [Parametric Scaling Law of Tuning Bias in Conformal Prediction](https://arxiv.org/abs/2502.03023) at ICML 2025. 
+This repository is the official implementation of [Parametric Scaling Law of Tuning Bias in Conformal Prediction](https://openreview.net/forum?id=jnJLZXSOin) at ICML 2025. 
 
 ## Overview
 Conformal prediction is a popular framework of uncertainty quantification that constructs prediction sets with coverage guarantees. To uphold the exchangeability assumption, many conformal prediction methods necessitate an additional hold-out set for parameter tuning. Yet, the impact of violating this principle on coverage remains underexplored, making it ambiguous in practical applications. In this work, we empirically find that the tuning bias - the coverage gap introduced by leveraging the same dataset for tuning and calibration, is negligible for simple parameter tuning in many conformal prediction methods.  In particular, we observe the scaling law of the tuning bias: this bias increases with parameter space complexity and decreases with calibration set size. Formally, we establish a theoretical framework to quantify the tuning bias and provide rigorous proof for the scaling law of the tuning bias by deriving its upper bound. In the end, we discuss how to reduce the tuning bias, guided by the theories we developed.
